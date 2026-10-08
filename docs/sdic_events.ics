@@ -24,6 +24,22 @@ URL:https://www.sdicscouting.org/events/coastal-sage-camporee
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
 END:VEVENT
 BEGIN:VEVENT
+UID:cope-weekend-2026-7@sdicscouting.org
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261012
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2026-7
+URL:https://www.sdicscouting.org/events/cope-weekend-2026-7
+LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-october-unit-backpacking@sdicscouting.org
 DTSTAMP:20261010T000000Z
 DTSTART;VALUE=DATE:20261010
@@ -66,6 +82,65 @@ DESCRIPTION:Basic Chainsaw Training\nScouting America properties rely on c
  s/basic-chainsaw-training-oct-2026
 URL:https://www.sdicscouting.org/events/basic-chainsaw-training-oct-2026
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
+END:VEVENT
+BEGIN:VEVENT
+UID:gathering-of-the-eagles@sdicscouting.org
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Gathering of Eagles
+DESCRIPTION:Gathering of Eagles\nAn Annual Gathering of Eagle Scouts from 
+ throughout the San Diego-Imperial Council\, their Spouses\, Outstanding E
+ agle Scout Honorees\, Council Staff and Special Guests.\nAll Council supp
+ orters of Scouting are welcome to attend!\nWednesday\, October 14\, 2026\
+ n‍\nAdmiral Baker Golf Course Clubhouse – North Patio\nDining Room\n2
+ 400 Admiral Baker Road\nSan Diego\, CA 92120\nSocial Time:  6:00 – 7:0
+ 0 PM\nProgram:  7:00 – 9:00 PM\nPrice:\n$85 per Individual\nTHE EVENIN
+ G’S PROGRAM\n6:00 PM - Social Gathering: No Host Bar\n7:00 PM - Dinner\
+ , Animated Discussion followed by our evening program:\n- President’s M
+ essage:\nMr. Tim Malaney\n- Keynote Address:\nMr. Mark Claussen\nNaval Of
+ ficer\, Engineer\, Scouting Advocate\, Council Board Member\n- Eagle Scou
+ t AlumniAssociation Life Membership Awards\n- Presentation of  Silver W
+ reath Awards\n- Presentation of NESA OutstandingEagle Scout Awards\n- Cou
+ ncil Message: Mr. Sean Roy – SDIC Scout Executive\n\nhttps://www.sdicsc
+ outing.org/events/gathering-of-the-eagles
+URL:https://www.sdicscouting.org/events/gathering-of-the-eagles
+LOCATION:Admiral Baker Golf Course Clubhouse\, 2400 Admiral Baker Road\, S
+ an Diego\, CA 92120
+END:VEVENT
+BEGIN:VEVENT
+UID:jamboree-on-the-air@sdicscouting.org
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261018
+SUMMARY:Jamboree-on-the-Air
+DESCRIPTION:Jamboree-on-the-Air\nJamboree on the Air (JOTA) is an annual e
+ vent where Scouts worldwide connect via amateur radio to communicate\, sh
+ are experiences\, and foster international friendship.\nCOST\n: Free wil
+ l donations help support WB6BSA amateur radio programs. Open to All Scout
+ s & Families\nWorld Wide Radio Voice Communication with Scout Units\nFrid
+ ay 5:00 - 8:00 PM\nSaturday 10:00 AM - 8:00 PM\nConnect live on amateur r
+ adio with Scout units all over the world! Take the microphone to speak wi
+ th fellow Scouts from other states and nations\, exchange greetings\, and
+  discover global radio fellowship.\nTransmitter Fox Hunt (Radio Direction
+  Finding)\nSaturday 10:00 AM - 12:00 PM\nLearn electronic navigation and 
+ radio tracking! Using handheld directional antennas and signal receivers\
+ , Scouts work in teams to locate hidden low-power radio transmitters conc
+ ealed across Camp Balboa. A thrilling electronic treasure hunt!\nOpen to 
+ Cub Scouts\, Scouts BSA\, Sea Scouts\, Venture Scouts\, and families.\nFa
+ mily Radio Communications Backup Plan\nSaturday 12:00 PM - 1:00 PM\nEquip
+  your family with an emergency communication strategy. Learn how to use e
+ veryday FRS/GMRS two-way radios when cell towers and electrical networks 
+ go offline during fires\, earthquakes\, or disasters. Includes channel pl
+ anning & protocol.\nRadio Merit Badge Workshop (Scouts BSA)\nSaturday 1:0
+ 0 PM - 4:00 PM\nComplete major requirements for the official Radio Merit 
+ Badge! Experienced volunteer mentors cover radio theory\, wave propagatio
+ n\, electronics\, safety\, FCC rules\, callsigns\, Morse code\, and give 
+ Scouts hands-on time operating the WB6BSA station.\n\nhttps://www.sdicsco
+ uting.org/events/jamboree-on-the-air
+URL:https://www.sdicscouting.org/events/jamboree-on-the-air
+LOCATION:Camp Balboa\, WB6BSA Amateur Radio Station\, 1207 Upas Street\, S
+ an Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:kayaking-merit-badge-day-2@sdicscouting.org
@@ -216,6 +291,48 @@ URL:https://www.sdicscouting.org/events/radio-merit-badge-on-uss-midway-no
  vember
 END:VEVENT
 BEGIN:VEVENT
+UID:msr-work-party-nov@sdicscouting.org
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:Mataguay Scout Ranch Work Party
+DESCRIPTION:Mataguay Scout Ranch Work Party\nTrading Post Railing - Carpen
+ try\nParticipants:\nScouts (ages 14 and up with parent)\nVenturers\nAdult
+  leaders and volunteers\n(Scouts under 14 will have age appropriate jobs 
+ if present)\nProject Focus:\nConstruction and maintenance projects aimed 
+ at enhancing camp facilities for Summer Camp & Weekend Programs. Projects
+  will range from small repairs to larger construction tasks.\nProject Obj
+ ective:\nComplete the projects listed below to allow for a better experie
+ nce for the scouts and families who come to Mataguay Scout Ranch.\nWhy:\n
+ Help revitalize Mataguay Scout Camp for the Scouts!\nDetails:\nFor those 
+ who wish to spend the night a Casita will be opened\, this is a spot to s
+ pend the night and take a hot shower. Food will not be provided by the co
+ uncil.\nWhat to Bring:\nFilled out med forms parts A and B\nWater bottle\
+ , proper clothing/work clothing\, gloves\nIf spending the night: Food\, c
+ amping equipment\, and proper clothing\nTools if you believe they will be
+  helpful for the project\nThis Month's Job Scope:\nAsphalt Work\, Paintin
+ g\, and Carpentry\n\nhttps://www.sdicscouting.org/events/msr-work-party-n
+ ov
+URL:https://www.sdicscouting.org/events/msr-work-party-nov
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:cope-weekend-2026-8@sdicscouting.org
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2026-8
+URL:https://www.sdicscouting.org/events/cope-weekend-2026-8
+LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
 UID:canoeing-merit-badge-day@sdicscouting.org
 DTSTAMP:20261114T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -284,6 +401,65 @@ LOCATION:Northminster Presbyterian Church\, 4324 Clairemont Mesa Blvd\, Sa
  n Diego\, CA 92122
 END:VEVENT
 BEGIN:VEVENT
+UID:national-day-of-service@sdicscouting.org
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:National Day of Service
+DESCRIPTION:National Day of Service\nSave the Date\nMore information comin
+ g soon about how SDIC will be supporting this national initiative.\n\nht
+ tps://www.sdicscouting.org/events/national-day-of-service
+URL:https://www.sdicscouting.org/events/national-day-of-service
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-work-party-dec@sdicscouting.org
+DTSTAMP:20261205T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:Mataguay Scout Ranch Work Party
+DESCRIPTION:Mataguay Scout Ranch Work Party\nTrading Post Railing - Carpen
+ try\nParticipants:\nScouts (ages 14 and up with parent)\nVenturers\nAdult
+  leaders and volunteers\n(Scouts under 14 will have age appropriate jobs 
+ if present)\nProject Focus:\nConstruction and maintenance projects aimed 
+ at enhancing camp facilities for Summer Camp & Weekend Programs. Projects
+  will range from small repairs to larger construction tasks.\nProject Obj
+ ective:\nComplete the projects listed below to allow for a better experie
+ nce for the scouts and families who come to Mataguay Scout Ranch.\nWhy:\n
+ Help revitalize Mataguay Scout Camp for the Scouts!\nDetails:\nFor those 
+ who wish to spend the night a Casita will be opened\, this is a spot to s
+ pend the night and take a hot shower. Food will not be provided by the co
+ uncil.\nWhat to Bring:\nFilled out med forms parts A and B\nWater bottle\
+ , proper clothing/work clothing\, gloves\nIf spending the night: Food\, c
+ amping equipment\, and proper clothing\nTools if you believe they will be
+  helpful for the project\nThis Month's Job Scope:\nAsphalt Work\, Paintin
+ g\, and Carpentry\n\nhttps://www.sdicscouting.org/events/msr-work-party-d
+ ec
+URL:https://www.sdicscouting.org/events/msr-work-party-dec
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-at-the-bay-2026@sdicscouting.org
+DTSTAMP:20261205T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Holiday at the Bay
+DESCRIPTION:Holiday at the Bay\nThis event is open house style for you and
+  your family to enjoy on your schedule. You may arrive anytime before noo
+ n and leave when you wish.\nAll activities designed for ages 5-17 (and th
+ eir adults). Activities include holiday themed crafts\, canoeing\, kayaki
+ ng\, cookie decorating and more.\nYouth Aquatic Center (1750 Fiesta Islan
+ d Road)\nCost:\n$30 for Youth\n$15 for Adults\nLunch is NOT included. You
+  may bring a sack lunch.\n‍\nCheck-in opens at 9:45 am\nExperience the 
+ great outdoors and enjoy the day at the Youth Aquatic Center.  We will h
+ ave staff to assist you with all activities and oversee the waterfront.\n
+ ‍\nFamilies must pre-register. NO WALK-IN'S.\nPlease no dogs allowed at
+  the Youth Aquatic Center\, per city regulations.\n\nhttps://www.sdicscou
+ ting.org/events/holiday-at-the-bay-2026
+URL:https://www.sdicscouting.org/events/holiday-at-the-bay-2026
+LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
+ o\, CA 92109
+END:VEVENT
+BEGIN:VEVENT
 UID:personal-management-merit-badge-workshop-20261209@sdicscouting.org
 DTSTAMP:20261209T000000Z
 DTSTART;TZID=America/Los_Angeles:20261209T160000
@@ -301,6 +477,22 @@ DESCRIPTION:Personal Management Merit Badge Workshop\nJA Merit Badge\nScou
  /events/personal-management-merit-badge-workshop
 URL:https://www.sdicscouting.org/events/personal-management-merit-badge-wo
  rkshop
+END:VEVENT
+BEGIN:VEVENT
+UID:cope-weekend-2026-9@sdicscouting.org
+DTSTAMP:20261211T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261214
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2026-9
+URL:https://www.sdicscouting.org/events/cope-weekend-2026-9
+LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
 UID:scout-night-with-gulls-hockey@sdicscouting.org
@@ -330,6 +522,64 @@ URL:https://www.sdicscouting.org/events/american-red-cross-lifeguard-class
  -2026
 END:VEVENT
 BEGIN:VEVENT
+UID:nylt-save-the-date-winter-course-20261228@sdicscouting.org
+DTSTAMP:20261228T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261231
+SUMMARY:NYLT - Winter Course
+DESCRIPTION:NYLT - Winter Course\nNYLT\n2 Weekends: December 28-30\, 2026
+  & January 16-18\, 2027 (Must Attend Both Weekends)\nNational Youth Lead
+ ership Training (NYLT) is an exciting\, action-packed program designed fo
+ r councils to provide youth members with leadership skills and experience
+  they can use in their home troops and in other situations demanding lead
+ ership of self and others.\n\nhttps://www.sdicscouting.org/events/nylt-sa
+ ve-the-date-winter-course
+URL:https://www.sdicscouting.org/events/nylt-save-the-date-winter-course
+LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
+ o\, CA 92109
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-work-party-jan@sdicscouting.org
+DTSTAMP:20270102T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270104
+SUMMARY:Mataguay Scout Ranch Work Party
+DESCRIPTION:Mataguay Scout Ranch Work Party\nCasitas - Painting\nParticipa
+ nts:\nScouts (ages 14 and up with parent)\nVenturers\nAdult leaders and v
+ olunteers\n(Scouts under 14 will have age appropriate jobs if present)\nP
+ roject Focus:\nConstruction and maintenance projects aimed at enhancing c
+ amp facilities for Summer Camp & Weekend Programs. Projects will range fr
+ om small repairs to larger construction tasks.\nProject Objective:\nCompl
+ ete the projects listed below to allow for a better experience for the sc
+ outs and families who come to Mataguay Scout Ranch.\nWhy:\nHelp revitaliz
+ e Mataguay Scout Camp for the Scouts!\nDetails:\nFor those who wish to sp
+ end the night a Casita will be opened\, this is a spot to spend the night
+  and take a hot shower. Food will not be provided by the council.\nWhat t
+ o Bring:\nFilled out med forms parts A and B\nWater bottle\, proper cloth
+ ing/work clothing\, gloves\nIf spending the night: Food\, camping equipme
+ nt\, and proper clothing\nTools if you believe they will be helpful for t
+ he project\nThis Month's Job Scope:\nAsphalt Work\, Wood Work\, Roofing\,
+  and Painting\n\nhttps://www.sdicscouting.org/events/msr-work-party-jan
+URL:https://www.sdicscouting.org/events/msr-work-party-jan
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:cope-weekend-2027-1@sdicscouting.org
+DTSTAMP:20270108T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270111
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-1
+URL:https://www.sdicscouting.org/events/cope-weekend-2027-1
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
 UID:wilderness-and-remote-first-aid-jan-2027@sdicscouting.org
 DTSTAMP:20270109T000000Z
 DTSTART;VALUE=DATE:20270109
@@ -347,6 +597,25 @@ URL:https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-ja
  n-2027
 LOCATION:San Diego-Imperial Council\, Boy Scouts of America\, 1207 Upas St
  \, San Diego\, CA 92103\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:national-youth-leadership-training---winter-course-weekend-2@sdicscout
+ ing.org
+DTSTAMP:20270116T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270119
+SUMMARY:NYLT - Winter Course Weekend 2
+DESCRIPTION:NYLT - Winter Course Weekend 2\nNYLT\n2 Weekends: December 28
+ -30\, 2026 & January 16-18\, 2027\nNational Youth Leadership Training (N
+ YLT) is an exciting\, action-packed program designed for councils to prov
+ ide youth members with leadership skills and experience they can use in t
+ heir home troops and in other situations demanding leadership of self and
+  others.\nRegistration Coming Soon\n\nhttps://www.sdicscouting.org/events
+ /national-youth-leadership-training---winter-course-weekend-2
+URL:https://www.sdicscouting.org/events/national-youth-leadership-training
+ ---winter-course-weekend-2
+LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
+ o\, CA 92109
 END:VEVENT
 BEGIN:VEVENT
 UID:search---rescue-merit-badge-weekend@sdicscouting.org
@@ -383,6 +652,44 @@ DESCRIPTION:HALTT Session I\nThis 40-hour course prepares unit leaders for
 URL:https://www.sdicscouting.org/events/haltt-session-1-feb-2027
 LOCATION:Atherton Hall\, Scouting America\, 1207 Upas St\, San Diego\, CA 
  92103\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-work-party-feb@sdicscouting.org
+DTSTAMP:20270206T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270208
+SUMMARY:Mataguay Scout Ranch Work Party
+DESCRIPTION:Mataguay Scout Ranch Work Party\nCabin - Remodel\nParticipants
+ :\nScouts (ages 14 and up with parent)\nVenturers\nAdult leaders and volu
+ nteers\n(Scouts under 14 will have age appropriate jobs if present)\nProj
+ ect Focus:\nConstruction and maintenance projects aimed at enhancing camp
+  facilities for Summer Camp & Weekend Programs. Projects will range from 
+ small repairs to larger construction tasks.\nProject Objective:\nComplete
+  the projects listed below to allow for a better experience for the scout
+ s and families who come to Mataguay Scout Ranch.\nWhy:\nHelp revitalize M
+ ataguay Scout Camp for the Scouts!\nDetails:\nFor those who wish to spend
+  the night a Casita will be opened\, this is a spot to spend the night an
+ d take a hot shower. Food will not be provided by the council.\nWhat to B
+ ring:\nFilled out med forms parts A and B\nWater bottle\, proper clothing
+ /work clothing\, gloves\nIf spending the night: Food\, camping equipment\
+ , and proper clothing\nTools if you believe they will be helpful for the 
+ project\nThis Month's Job Scope:\nAsphalt Work\, Wood Work\, Roofing\, Pa
+ inting\, Framing\, and Door Construction\n\nhttps://www.sdicscouting.org/
+ events/msr-work-party-feb
+URL:https://www.sdicscouting.org/events/msr-work-party-feb
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:old-town-heritage-day@sdicscouting.org
+DTSTAMP:20270206T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Old Town Heritage Day
+DESCRIPTION:Old Town Heritage Day\nSave the Date\nMore details to come soo
+ n!\n\nhttps://www.sdicscouting.org/events/old-town-heritage-day
+URL:https://www.sdicscouting.org/events/old-town-heritage-day
+LOCATION:Old Town San Diego State Historic Park\, San Diego Avenue @ Twigg
+ s Street\, San Diego\, CA 92110
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-session-2-feb-2027@sdicscouting.org
@@ -438,6 +745,22 @@ DESCRIPTION:Personal Management Merit Badge Workshop\nJA Merit Badge\nScou
  /events/personal-management-merit-badge-workshop
 URL:https://www.sdicscouting.org/events/personal-management-merit-badge-wo
  rkshop
+END:VEVENT
+BEGIN:VEVENT
+UID:cope-weekend-2027-2@sdicscouting.org
+DTSTAMP:20270212T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270215
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-2
+URL:https://www.sdicscouting.org/events/cope-weekend-2027-2
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-feb-unit-backpacking@sdicscouting.org
@@ -530,6 +853,32 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
 END:VEVENT
 BEGIN:VEVENT
+UID:msr-work-party-march@sdicscouting.org
+DTSTAMP:20270306T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270308
+SUMMARY:Mataguay Scout Ranch Work Party
+DESCRIPTION:Mataguay Scout Ranch Work Party\nCabin - Remodel\nParticipants
+ :\nScouts (ages 14 and up with parent)\nVenturers\nAdult leaders and volu
+ nteers\n(Scouts under 14 will have age appropriate jobs if present)\nProj
+ ect Focus:\nConstruction and maintenance projects aimed at enhancing camp
+  facilities for Summer Camp & Weekend Programs. Projects will range from 
+ small repairs to larger construction tasks.\nProject Objective:\nComplete
+  the projects listed below to allow for a better experience for the scout
+ s and families who come to Mataguay Scout Ranch.\nWhy:\nHelp revitalize M
+ ataguay Scout Camp for the Scouts!\nDetails:\nFor those who wish to spend
+  the night a Casita will be opened\, this is a spot to spend the night an
+ d take a hot shower. Food will not be provided by the council.\nWhat to B
+ ring:\nFilled out med forms parts A and B\nWater bottle\, proper clothing
+ /work clothing\, gloves\nIf spending the night: Food\, camping equipment\
+ , and proper clothing\nTools if you believe they will be helpful for the 
+ project\nThis Month's Job Scope:\nAsphalt Work\, Wood Work\, Roofing\, Pa
+ inting\, Framing\, and Door Construction\n\nhttps://www.sdicscouting.org/
+ events/msr-work-party-march
+URL:https://www.sdicscouting.org/events/msr-work-party-march
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
 UID:wilderness-and-remote-first-aid-mar-2027@sdicscouting.org
 DTSTAMP:20270306T000000Z
 DTSTART;VALUE=DATE:20270306
@@ -547,6 +896,32 @@ URL:https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-ma
  r-2027
 LOCATION:San Diego-Imperial Council\, Boy Scouts of America\, 1207 Upas St
  \, San Diego\, CA 92103\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:cope-weekend-2027-3@sdicscouting.org
+DTSTAMP:20270312T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270315
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-3
+URL:https://www.sdicscouting.org/events/cope-weekend-2027-3
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:ski-trip@sdicscouting.org
+DTSTAMP:20270313T000000Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270315
+SUMMARY:Ski Trip - Council Bus
+DESCRIPTION:Ski Trip - Council Bus\nSave the Date\nMore details to come so
+ on!\n\nhttps://www.sdicscouting.org/events/ski-trip
+URL:https://www.sdicscouting.org/events/ski-trip
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-march-unit-backpacking@sdicscouting.org
@@ -672,6 +1047,48 @@ URL:https://www.sdicscouting.org/events/trailblazer-camp-week-2
 LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
+UID:msr-work-party-apr@sdicscouting.org
+DTSTAMP:20270403T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270405
+SUMMARY:Mataguay Scout Ranch Work Party
+DESCRIPTION:Mataguay Scout Ranch Work Party\nParker Pool House - Electrica
+ l\nParticipants:\nScouts (ages 14 and up with parent)\nVenturers\nAdult l
+ eaders and volunteers\n(Scouts under 14 will have age appropriate jobs if
+  present)\nProject Focus:\nConstruction and maintenance projects aimed at
+  enhancing camp facilities for Summer Camp & Weekend Programs. Projects w
+ ill range from small repairs to larger construction tasks.\nProject Objec
+ tive:\nComplete the projects listed below to allow for a better experienc
+ e for the scouts and families who come to Mataguay Scout Ranch.\nWhy:\nHe
+ lp revitalize Mataguay Scout Camp for the Scouts!\nDetails:\nFor those wh
+ o wish to spend the night a Casita will be opened\, this is a spot to spe
+ nd the night and take a hot shower. Food will not be provided by the coun
+ cil.\nWhat to Bring:\nFilled out med forms parts A and B\nWater bottle\, 
+ proper clothing/work clothing\, gloves\nIf spending the night: Food\, cam
+ ping equipment\, and proper clothing\nTools if you believe they will be h
+ elpful for the project\nThis Month's Job Scope:\nAsphalt Work\, Masonry W
+ ork\, and Electrical\n\nhttps://www.sdicscouting.org/events/msr-work-part
+ y-apr
+URL:https://www.sdicscouting.org/events/msr-work-party-apr
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:cope-weekend-2027-4@sdicscouting.org
+DTSTAMP:20270409T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270412
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-4
+URL:https://www.sdicscouting.org/events/cope-weekend-2027-4
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
 UID:2027-apr-unit-backpacking@sdicscouting.org
 DTSTAMP:20270411T000000Z
 DTSTART;VALUE=DATE:20270411
@@ -712,6 +1129,32 @@ DESCRIPTION:HALTT Session I\nThis 40-hour course prepares unit leaders for
 URL:https://www.sdicscouting.org/events/haltt-session-1-apr-2027
 LOCATION:Atherton Hall\, Scouting America\, 1207 Upas St\, San Diego\, CA 
  92103\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:msr-work-party-may@sdicscouting.org
+DTSTAMP:20270501T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270503
+SUMMARY:Mataguay Scout Ranch Work Party
+DESCRIPTION:Mataguay Scout Ranch Work Party\nRanges / Kybos - Carpentry�
+ \nParticipants:\nScouts (ages 14 and up with parent)\nVenturers\nAdult le
+ aders and volunteers\n(Scouts under 14 will have age appropriate jobs if 
+ present)\nProject Focus:\nConstruction and maintenance projects aimed at 
+ enhancing camp facilities for Summer Camp & Weekend Programs. Projects wi
+ ll range from small repairs to larger construction tasks.\nProject Object
+ ive:\nComplete the projects listed below to allow for a better experience
+  for the scouts and families who come to Mataguay Scout Ranch.\nWhy:\nHel
+ p revitalize Mataguay Scout Camp for the Scouts!\nDetails:\nFor those who
+  wish to spend the night a Casita will be opened\, this is a spot to spen
+ d the night and take a hot shower. Food will not be provided by the counc
+ il.\nWhat to Bring:\nFilled out med forms parts A and B\nWater bottle\, p
+ roper clothing/work clothing\, gloves\nIf spending the night: Food\, camp
+ ing equipment\, and proper clothing\nTools if you believe they will be he
+ lpful for the project\nThis Month's Job Scope:\nAsphalt Work\, Wood Work\
+ , Roofing\, Framing\, and Painting\n\nhttps://www.sdicscouting.org/events
+ /msr-work-party-may
+URL:https://www.sdicscouting.org/events/msr-work-party-may
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-session-2-may-2027@sdicscouting.org
@@ -791,6 +1234,22 @@ URL:https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-may-20
  27
 END:VEVENT
 BEGIN:VEVENT
+UID:cope-weekend-2027-5@sdicscouting.org
+DTSTAMP:20270514T000000Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270517
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-5
+URL:https://www.sdicscouting.org/events/cope-weekend-2027-5
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
 UID:haltt-session-3-may-2027@sdicscouting.org
 DTSTAMP:20270515T000000Z
 DTSTART;VALUE=DATE:20270515
@@ -825,6 +1284,35 @@ URL:https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-ma
  y-2027
 LOCATION:San Diego-Imperial Council\, Boy Scouts of America\, 1207 Upas St
  \, San Diego\, CA 92103\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:international-camporee-2027@sdicscouting.org
+DTSTAMP:20270521T000000Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270524
+SUMMARY:International Camporee
+DESCRIPTION:International Camporee\nSave the Date\nMore details to come so
+ on!\n\nhttps://www.sdicscouting.org/events/international-camporee-2027
+URL:https://www.sdicscouting.org/events/international-camporee-2027
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:community-adventure-day-4@sdicscouting.org
+DTSTAMP:20270522T000000Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-4
+URL:https://www.sdicscouting.org/events/community-adventure-day-4
+LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
+ o\, CA 92109
 END:VEVENT
 BEGIN:VEVENT
 UID:first-aid-adult-cpr-and-aed-may-22-2027@sdicscouting.org
@@ -999,6 +1487,40 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92109
 END:VEVENT
 BEGIN:VEVENT
+UID:community-adventure-day-5@sdicscouting.org
+DTSTAMP:20270828T000000Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-5
+URL:https://www.sdicscouting.org/events/community-adventure-day-5
+LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
+ o\, CA 92109
+END:VEVENT
+BEGIN:VEVENT
+UID:cope-weekend-2027-9@sdicscouting.org
+DTSTAMP:20270910T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270913
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-9
+URL:https://www.sdicscouting.org/events/cope-weekend-2027-9
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
 UID:paddle-craft-and-safe-water-rescue-clinic@sdicscouting.org
 DTSTAMP:20270911T000000Z
 DTSTART;VALUE=DATE:20270911
@@ -1027,6 +1549,39 @@ DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
 URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
 LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
  A
+END:VEVENT
+BEGIN:VEVENT
+UID:community-adventure-day-6@sdicscouting.org
+DTSTAMP:20270925T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-6
+URL:https://www.sdicscouting.org/events/community-adventure-day-6
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:cope-weekend-2027-10@sdicscouting.org
+DTSTAMP:20271008T000000Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271011
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-10
+URL:https://www.sdicscouting.org/events/cope-weekend-2027-10
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-oct-unit-backpacking@sdicscouting.org
@@ -1077,6 +1632,24 @@ URL:https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-oct-20
  27
 END:VEVENT
 BEGIN:VEVENT
+UID:community-adventure-day-7@sdicscouting.org
+DTSTAMP:20271016T000000Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-7
+URL:https://www.sdicscouting.org/events/community-adventure-day-7
+LOCATION:Camp Bashor at Otay Lakes County Park\, 2270 Wueste Rd\, Chula Vi
+ sta\, CA 91915
+END:VEVENT
+BEGIN:VEVENT
 UID:wilderness-and-remote-first-aid-oct-2027@sdicscouting.org
 DTSTAMP:20271023T000000Z
 DTSTART;VALUE=DATE:20271023
@@ -1109,6 +1682,22 @@ DESCRIPTION:HALTT Session IV: Water Trek\nThis 15-hour course prepares uni
 URL:https://www.sdicscouting.org/events/haltt-session-4-nov-water-2027
 LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
+END:VEVENT
+BEGIN:VEVENT
+UID:cope-weekend-2027-11@sdicscouting.org
+DTSTAMP:20271112T000000Z
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271115
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-11
+URL:https://www.sdicscouting.org/events/cope-weekend-2027-11
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-recert-2-2027@sdicscouting.org
@@ -1149,6 +1738,17 @@ URL:https://www.sdicscouting.org/events/2027-nov-unit-backpacking
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92082
 END:VEVENT
 BEGIN:VEVENT
+UID:dutch-oven-cooking-day@sdicscouting.org
+DTSTAMP:20271120T000000Z
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
+SUMMARY:Dutch Oven Cooking Day
+DESCRIPTION:Dutch Oven Cooking Day\nSave the Date\nMore details to come so
+ on!\n\nhttps://www.sdicscouting.org/events/dutch-oven-cooking-day
+URL:https://www.sdicscouting.org/events/dutch-oven-cooking-day
+LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
+END:VEVENT
+BEGIN:VEVENT
 UID:complete-angler-weekend@sdicscouting.org
 DTSTAMP:20271203T000000Z
 DTSTART;VALUE=DATE:20271203
@@ -1159,5 +1759,34 @@ DESCRIPTION:Complete Angler - Weekend\nSave the Date\nMore details to come
 URL:https://www.sdicscouting.org/events/complete-angler-weekend
 LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92109
+END:VEVENT
+BEGIN:VEVENT
+UID:cope-weekend-2027-12@sdicscouting.org
+DTSTAMP:20271210T000000Z
+DTSTART;VALUE=DATE:20271210
+DTEND;VALUE=DATE:20271213
+SUMMARY:Project C.O.P.E.
+DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
+ .P.E. is an acronym for Challenging Outdoor Personal Experience and at Ma
+ taguay Scout Ranch\, we have a weekend that will do just that!\nWhether y
+ our unit needs help learning how to Communicate\, Plan\, Trust each other
+ \, Team-work\, build Leadership\, learn to Make Decisions\, Problem Solve
+ \, or just build Self-esteem\, we have a program that will fill your unit
+ s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-12
+URL:https://www.sdicscouting.org/events/cope-weekend-2027-12
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:american-red-cross-lifeguard-class-2027@sdicscouting.org
+DTSTAMP:20271227T000000Z
+DTSTART;VALUE=DATE:20271227
+DTEND;VALUE=DATE:20280102
+SUMMARY:American Red Cross Lifeguard Class
+DESCRIPTION:American Red Cross Lifeguard Class\nSave the Date\nMore detail
+ s to come soon!\nIf you have any questions please contact Johnathon Hall 
+ at\njohnathon.hall@scouting.org\nor call (619) 298-6121\n\nhttps://www.sd
+ icscouting.org/events/american-red-cross-lifeguard-class-2027
+URL:https://www.sdicscouting.org/events/american-red-cross-lifeguard-class
+ -2027
 END:VEVENT
 END:VCALENDAR
