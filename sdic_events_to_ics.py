@@ -47,6 +47,19 @@ LONG_DATE_RE = re.compile(r"^[A-Z][a-z]+ \d{1,2}, \d{4}$")
 # The council labels each event with one or more categories (shown just above its date).
 CATEGORY_LABELS = {"cub scouts", "bsa scouts", "venturing", "sea scouts", "exploring",
                    "council / district", "training", "order of the arrow"}
+# Event pages sometimes show a shorter label than the filter list does (the Gathering of Eagles
+# page says "Council", the list says "Council / District"), so labels are normalised first.
+LABEL_ALIASES = {"council": "council / district", "council/district": "council / district",
+                 "district": "council / district", "scouts bsa": "bsa scouts",
+                 "oa": "order of the arrow", "cub scout": "cub scouts", "cubs": "cub scouts",
+                 "sea scout": "sea scouts"}
+
+
+def normalize_label(text):
+    key = re.sub(r"\s+", " ", text.strip().lower())
+    return LABEL_ALIASES.get(key, key)
+
+
 PROGRAM_CATEGORIES = {"bsa scouts", "order of the arrow", "venturing", "sea scouts"}
 # Categories kept by --scouts-only unless you override them with --keep-categories
 DEFAULT_KEEP = "BSA Scouts,Order of the Arrow,Venturing,Sea Scouts,Training,Council / District"
@@ -147,7 +160,7 @@ def parse_detail(url):
     soup = get(url)
     h1 = soup.find("h1")
     out = {"title": h1.get_text(strip=True) if h1 else "", "location": "",
-           "description": "", "dates": [], "lines": [], "categories": []}
+           "description": "", "dates": [], "lines": [], "categories": [], "unknown_label": ""}
     if not h1:
         return out
 
@@ -171,9 +184,12 @@ def parse_detail(url):
             t = prev.strip()
             if not t or isinstance(prev, Comment):
                 continue
-            if t.lower() in CATEGORY_LABELS:
-                out["categories"].append(t)
+            label = normalize_label(t)
+            if label in CATEGORY_LABELS:
+                out["categories"].append(label)
             else:
+                if not out["categories"] and len(t) <= 30 and t.lower() != "con":
+                    out["unknown_label"] = t      # a label we don't know; reported in the log
                 break
     long_dates = [header.strip()] if header else []
     long_dates += [l for l in lines if LONG_DATE_RE.match(l)]
@@ -457,6 +473,7 @@ def main():
     print(f"Found {len(listing)} events. Fetching detail pages...")
 
     final, today, failed = [], dt.date.today(), set()
+    judged, unlabeled, unknown_labels = 0, 0, set()
     for i, (url, base) in enumerate(listing.items(), 1):
         try:
             d = parse_detail(url)
@@ -474,12 +491,18 @@ def main():
             continue
         title = d["title"] or base["title"]
         if args.scouts_only:
+            judged += 1
+            if not d["categories"]:
+                unlabeled += 1
+                if d["unknown_label"]:
+                    unknown_labels.add(d["unknown_label"])
             keep, why = scout_filter(title, d["categories"], keep_cats)
             if not keep:
                 print(f"  - FILTERED OUT {title} ({why})")
                 continue
             if why:
-                print(f"  ? kept {title}: {why}")
+                extra = f' (page label: "{d["unknown_label"]}")' if d["unknown_label"] else ""
+                print(f"  ? kept {title}: {why}{extra}")
         common = {"url": url, "title": title, "location": d["location"],
                   "description": d["description"]}
         sessions = []
@@ -510,6 +533,14 @@ def main():
               + (f"  [{', '.join(d['categories'])}]" if d["categories"] else ""))
         time.sleep(0.3)
 
+    if args.scouts_only:
+        if unknown_labels:
+            print("\nCategory labels this script doesn't recognize: " + ", ".join(sorted(unknown_labels))
+                  + "\n  (events with these labels were kept; tell the maintainer so they can be added)")
+        if judged >= 10 and unlabeled / judged > 0.2:
+            raise SystemExit(f"\nERROR: {unlabeled} of {judged} events had no recognizable category label. "
+                             f"The council's page layout probably changed, so nothing was written and "
+                             f"the previous calendar was left as it was.")
     final.sort(key=lambda e: e["start"])
     with open(args.out, "w", encoding="utf-8", newline="") as f:
         f.write(build_ics(final))
