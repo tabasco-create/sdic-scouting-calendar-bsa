@@ -7,6 +7,8 @@ Run:     python sdic_events_to_ics.py                (upcoming events only)
          python sdic_events_to_ics.py --all          (include past events)
          python sdic_events_to_ics.py -o scouting.ics
          python sdic_events_to_ics.py -o docs/sdic_events.ics --site-dir docs
+         python sdic_events_to_ics.py ... --scouts-only
+            (Scouts BSA-focused calendar: leaves out Cub Scout / Webelos / family events)
             (also writes docs/events.json + docs/changes.json for the web page)
 
 How it works:
@@ -29,7 +31,7 @@ import time
 from urllib.parse import urljoin
 
 import requests
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, Comment, NavigableString, Tag
 
 BASE = "https://www.sdicscouting.org"
 LIST_URL = BASE + "/events"
@@ -39,6 +41,15 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (personal calendar sync script)"}
 SLUG_RE = re.compile(r"^/events/[^/?#]+$")
 US_DATE_RE = re.compile(r"^\d{1,2}/\d{1,2}/\d{4}$")
 LONG_DATE_RE = re.compile(r"^[A-Z][a-z]+ \d{1,2}, \d{4}$")
+
+# The council labels each event with one or more categories (shown just above its date).
+CATEGORY_LABELS = {"cub scouts", "bsa scouts", "venturing", "sea scouts", "exploring",
+                   "council / district", "training", "order of the arrow"}
+PROGRAM_CATEGORIES = {"bsa scouts", "order of the arrow", "venturing", "sea scouts"}
+GENERAL_CATEGORIES = {"council / district", "training"}
+CUB_TITLE_RE = re.compile(
+    r"\bcubs?\b|webelos|\baol\b|arrow of light|\blions?\b|\btigers?\b|baloo|family fun|family camp",
+    re.I)
 ADDRESS_RE = re.compile(r"\bCA\s+\d{5}\b")
 SESSION_DATE_RE = re.compile(r"([A-Z][a-z]+) (\d{1,2}), (\d{4})")
 RANGE_RE = re.compile(r"([A-Z][a-z]+) (\d{1,2})\s*[-\u2013\u2014]\s*(?:([A-Z][a-z]+) )?(\d{1,2}),? (\d{4})")
@@ -133,7 +144,7 @@ def parse_detail(url):
     soup = get(url)
     h1 = soup.find("h1")
     out = {"title": h1.get_text(strip=True) if h1 else "", "location": "",
-           "description": "", "dates": [], "lines": []}
+           "description": "", "dates": [], "lines": [], "categories": []}
     if not h1:
         return out
 
@@ -152,6 +163,15 @@ def parse_detail(url):
 
     # header date sits just above the <h1>
     header = h1.find_previous(string=LONG_DATE_RE)
+    if header:   # category labels sit directly above the date, e.g. "Cub Scouts" / "BSA Scouts"
+        for prev in header.find_all_previous(string=True, limit=10):
+            t = prev.strip()
+            if not t or isinstance(prev, Comment):
+                continue
+            if t.lower() in CATEGORY_LABELS:
+                out["categories"].append(t)
+            else:
+                break
     long_dates = [header.strip()] if header else []
     long_dates += [l for l in lines if LONG_DATE_RE.match(l)]
     for s in long_dates:
@@ -252,6 +272,25 @@ def listed_separately(url, title, s, e, listing):
                 and len(mine & title_words(o["title"])) >= 2:
             return True
     return False
+
+
+# ---------- audience filter ----------
+
+def scout_filter(title, categories):
+    """For --scouts-only. Returns (keep, note). Cub-oriented titles are always dropped;
+    otherwise the council's own category labels decide."""
+    if CUB_TITLE_RE.search(title):
+        return False, "Cub-oriented title"
+    cats = {c.lower() for c in categories}
+    if cats & PROGRAM_CATEGORIES:                 # Scouts BSA, OA, Venturing, Sea Scouts
+        return True, ""
+    if "cub scouts" in cats:
+        return False, "Cub Scouts category"
+    if cats & GENERAL_CATEGORIES:                 # council / district events, training
+        return True, ""
+    if "exploring" in cats:
+        return False, "Exploring category only"
+    return True, "no category found"              # keep, but flag it in the log
 
 
 # ---------- ICS output ----------
@@ -394,6 +433,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("-o", "--out", default="sdic_events.ics")
     ap.add_argument("--all", action="store_true", help="include events that already ended")
+    ap.add_argument("--scouts-only", action="store_true",
+                    help="leave out Cub Scout, Webelos/AOL and family events")
     ap.add_argument("--site-dir", help="also write events.json + changes.json here (e.g. docs)")
     args = ap.parse_args()
 
@@ -417,6 +458,13 @@ def main():
         if not args.all and end < today:
             continue
         title = d["title"] or base["title"]
+        if args.scouts_only:
+            keep, why = scout_filter(title, d["categories"])
+            if not keep:
+                print(f"  - FILTERED OUT {title} ({why})")
+                continue
+            if why:
+                print(f"  ? kept {title}: {why}")
         common = {"url": url, "title": title, "location": d["location"],
                   "description": d["description"]}
         sessions = []
@@ -443,7 +491,8 @@ def main():
             continue
         else:
             final.append({**common, "start": start, "end": end})
-        print(f"  [{i}/{len(listing)}] {start} {title}")
+        print(f"  [{i}/{len(listing)}] {start} {title}"
+              + (f"  [{', '.join(d['categories'])}]" if d["categories"] else ""))
         time.sleep(0.3)
 
     final.sort(key=lambda e: e["start"])
