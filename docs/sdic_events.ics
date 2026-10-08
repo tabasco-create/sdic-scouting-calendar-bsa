@@ -317,21 +317,6 @@ URL:https://www.sdicscouting.org/events/msr-work-party-nov
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-tiwahe-lodge-fellowship@sdicscouting.org
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261116
-SUMMARY:2026 Tiwahe Lodge Fellowship
-DESCRIPTION:2026 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
- ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
-  this year’s agenda is packed with fun activities and training.\n2026 T
- iwahe Lodge Fellowship will be held November 13-15 at Camp Balboa. Join u
- s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
- .org/events/2026-tiwahe-lodge-fellowship
-URL:https://www.sdicscouting.org/events/2026-tiwahe-lodge-fellowship
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
-END:VEVENT
-BEGIN:VEVENT
 UID:cope-weekend-2026-8@sdicscouting.org
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261113
@@ -1129,21 +1114,6 @@ URL:https://www.sdicscouting.org/events/2027-apr-unit-backpacking
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92079
 END:VEVENT
 BEGIN:VEVENT
-UID:oa-induction-weekend-1-2027@sdicscouting.org
-DTSTAMP:20270416T000000Z
-DTSTART;VALUE=DATE:20270416
-DTEND;VALUE=DATE:20270419
-SUMMARY:OA Induction Weekend 1 - 2027
-DESCRIPTION:OA Induction Weekend 1 - 2027\nThe Induction Weekend is the fi
- rst step toward full membership in the Order of the Arrow (OA). The entir
- e experience is designed to teach significant values. All candidates for 
- membership are required to complete the Induction Weekend within eighteen
-  months of their election or nomination.\nRegistration Coming Soon.\n\nht
- tps://www.sdicscouting.org/events/oa-induction-weekend-1-2027
-URL:https://www.sdicscouting.org/events/oa-induction-weekend-1-2027
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
-END:VEVENT
-BEGIN:VEVENT
 UID:haltt-session-1-apr-2027@sdicscouting.org
 DTSTAMP:20270428T000000Z
 DTSTART;VALUE=DATE:20270428
@@ -1264,20 +1234,6 @@ URL:https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-may-20
  27
 END:VEVENT
 BEGIN:VEVENT
-UID:oa-lodge-encampment-2027@sdicscouting.org
-DTSTAMP:20270514T000000Z
-DTSTART;VALUE=DATE:20270514
-DTEND;VALUE=DATE:20270517
-SUMMARY:OA Lodge Encampment - 2027
-DESCRIPTION:OA Lodge Encampment - 2027\nLodge Encampment is an annual even
- t for all Arrowmen of Tiwahe Lodge. We hold an annual Lodge Encampment in
-  the Spring\, check the calendar for date and location. This year’s age
- nda is packed with fun activities and service.\nRegistration Coming Soon.
- \n\nhttps://www.sdicscouting.org/events/oa-lodge-encampment-2027
-URL:https://www.sdicscouting.org/events/oa-lodge-encampment-2027
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
-END:VEVENT
-BEGIN:VEVENT
 UID:cope-weekend-2027-5@sdicscouting.org
 DTSTAMP:20270514T000000Z
 DTSTART;VALUE=DATE:20270514
@@ -1396,21 +1352,6 @@ DESCRIPTION:HALTT Session IV: Water Trek\nThis 15-hour course prepares uni
 URL:https://www.sdicscouting.org/events/haltt-session-4-jun-water-2027
 LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
-END:VEVENT
-BEGIN:VEVENT
-UID:oa-induction-weekend-2-2027@sdicscouting.org
-DTSTAMP:20270604T000000Z
-DTSTART;VALUE=DATE:20270604
-DTEND;VALUE=DATE:20270607
-SUMMARY:OA Induction Weekend 2 - 2027
-DESCRIPTION:OA Induction Weekend 2 - 2027\nThe Induction Weekend is the fi
- rst step toward full membership in the Order of the Arrow (OA). The entir
- e experience is designed to teach significant values. All candidates for 
- membership are required to complete the Induction Weekend within eighteen
-  months of their election or nomination.\nRegistration Coming Soon.\n\nht
- tps://www.sdicscouting.org/events/oa-induction-weekend-2-2027
-URL:https://www.sdicscouting.org/events/oa-induction-weekend-2-2027
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-recert-1-2027@sdicscouting.org
@@ -1546,18 +1487,6 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92109
 END:VEVENT
 BEGIN:VEVENT
-UID:sea-scout-weekend@sdicscouting.org
-DTSTAMP:20270813T000000Z
-DTSTART;VALUE=DATE:20270813
-DTEND;VALUE=DATE:20270816
-SUMMARY:Sea Scout Weekend
-DESCRIPTION:Sea Scout Weekend\nSave the Date\nMore details to come soon!\n
- \nhttps://www.sdicscouting.org/events/sea-scout-weekend
-URL:https://www.sdicscouting.org/events/sea-scout-weekend
-LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
- o\, CA 92109
-END:VEVENT
-BEGIN:VEVENT
 UID:community-adventure-day-5@sdicscouting.org
 DTSTAMP:20270828T000000Z
 DTSTART;VALUE=DATE:20270828
@@ -1574,21 +1503,6 @@ DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
 URL:https://www.sdicscouting.org/events/community-adventure-day-5
 LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92109
-END:VEVENT
-BEGIN:VEVENT
-UID:oa-induction-weekend-3-2027@sdicscouting.org
-DTSTAMP:20270910T000000Z
-DTSTART;VALUE=DATE:20270910
-DTEND;VALUE=DATE:20270913
-SUMMARY:OA Induction Weekend 3 - 2027
-DESCRIPTION:OA Induction Weekend 3 - 2027\nThe Induction Weekend is the fi
- rst step toward full membership in the Order of the Arrow (OA). The entir
- e experience is designed to teach significant values. All candidates for 
- membership are required to complete the Induction Weekend within eighteen
-  months of their election or nomination.\nRegistration Coming Soon.\n\nht
- tps://www.sdicscouting.org/events/oa-induction-weekend-3-2027
-URL:https://www.sdicscouting.org/events/oa-induction-weekend-3-2027
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-9@sdicscouting.org
@@ -1620,26 +1534,21 @@ URL:https://www.sdicscouting.org/events/paddle-craft-and-safe-water-rescue
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
-UID:2027-tiwahe-lodge-vigil-celebration@sdicscouting.org
+UID:community-adventure-day-6@sdicscouting.org
 DTSTAMP:20270925T000000Z
 DTSTART;VALUE=DATE:20270925
-DTEND;VALUE=DATE:20270927
-SUMMARY:2027 Tiwahe Lodge Vigil Celebration
-DESCRIPTION:2027 Tiwahe Lodge Vigil Celebration\nThe Vigil Honor is a high
-  mark of distinction and recognition reserved for those Arrowmen who\, by
-  reason of exceptional service\, personal effort\, and unselfish interest
- \, have made distinguished contributions beyond the immediate responsibil
- ities of their position or office to one of more of the following: their 
- lodge\, the Order of the Arrow\, Scouting\, or their Scout camp.\nAt this
-  event we will induct our 2025 class of Vigil Candidates and then celebra
- te their induction the following day with Breakfast.\nWe encourage all cu
- rrent Vigil Members to attend the breakfast celebration\n.\nThis is event
-  is restricted to Order of the Arrow VIGIL Members Only\, the candidates
- \, and their families.\n\nhttps://www.sdicscouting.org/events/2027-tiwahe
- -lodge-vigil-celebration
-URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-vigil-celebratio
- n
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
+DTEND;VALUE=DATE:20270926
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-6
+URL:https://www.sdicscouting.org/events/community-adventure-day-6
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-session-3-sept-2027@sdicscouting.org
@@ -1657,23 +1566,6 @@ DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
 URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
 LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
  A
-END:VEVENT
-BEGIN:VEVENT
-UID:community-adventure-day-6@sdicscouting.org
-DTSTAMP:20270925T000000Z
-DTSTART;VALUE=DATE:20270925
-DTEND;VALUE=DATE:20270926
-SUMMARY:Community Adventure Day
-DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
- se style for you and your family to enjoy on your schedule. You may arriv
- e anytime before noon and leave when you wish.\nAll activities designed f
- or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
- ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
-  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
- 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
- .sdicscouting.org/events/community-adventure-day-6
-URL:https://www.sdicscouting.org/events/community-adventure-day-6
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-10@sdicscouting.org
@@ -1806,21 +1698,6 @@ DESCRIPTION:Project C.O.P.E.\nChallenging Outdoor Personal Experience\nC.O
  s needs.\n\nhttps://www.sdicscouting.org/events/cope-weekend-2027-11
 URL:https://www.sdicscouting.org/events/cope-weekend-2027-11
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
-UID:2027-tiwahe-lodge-fellowship@sdicscouting.org
-DTSTAMP:20271112T000000Z
-DTSTART;VALUE=DATE:20271112
-DTEND;VALUE=DATE:20271115
-SUMMARY:2027 Tiwahe Lodge Fellowship
-DESCRIPTION:2027 Tiwahe Lodge Fellowship\nLodge Fellowship is an annual ev
- ent for all Arrowmen of Tiwahe Lodge. We hold an annual Fall Fellowship\,
-  this year’s agenda is packed with fun activities and training.\n2027 T
- iwahe Lodge Fellowship will be held November 12-14 at Camp Balboa. Join u
- s for Training\, Activities\, and Fellowship!\n\nhttps://www.sdicscouting
- .org/events/2027-tiwahe-lodge-fellowship
-URL:https://www.sdicscouting.org/events/2027-tiwahe-lodge-fellowship
-LOCATION:Camp Balboa\, 1207 Upas Street\, San Diego\, CA 92103
 END:VEVENT
 BEGIN:VEVENT
 UID:haltt-recert-2-2027@sdicscouting.org
