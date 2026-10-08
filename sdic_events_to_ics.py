@@ -9,6 +9,8 @@ Run:     python sdic_events_to_ics.py                (upcoming events only)
          python sdic_events_to_ics.py -o docs/sdic_events.ics --site-dir docs
          python sdic_events_to_ics.py ... --scouts-only
             (Scouts BSA-focused calendar: leaves out Cub Scout / Webelos / family events)
+         python sdic_events_to_ics.py ... --keep-categories "BSA Scouts,Training"
+            (strictest: keep only events the council labels BSA Scouts or Training)
             (also writes docs/events.json + docs/changes.json for the web page)
 
 How it works:
@@ -46,7 +48,8 @@ LONG_DATE_RE = re.compile(r"^[A-Z][a-z]+ \d{1,2}, \d{4}$")
 CATEGORY_LABELS = {"cub scouts", "bsa scouts", "venturing", "sea scouts", "exploring",
                    "council / district", "training", "order of the arrow"}
 PROGRAM_CATEGORIES = {"bsa scouts", "order of the arrow", "venturing", "sea scouts"}
-GENERAL_CATEGORIES = {"council / district", "training"}
+# Categories kept by --scouts-only unless you override them with --keep-categories
+DEFAULT_KEEP = "BSA Scouts,Order of the Arrow,Venturing,Sea Scouts,Training,Council / District"
 CUB_TITLE_RE = re.compile(
     r"\bcubs?\b|webelos|\baol\b|arrow of light|\blions?\b|\btigers?\b|baloo|family fun|family camp",
     re.I)
@@ -276,21 +279,24 @@ def listed_separately(url, title, s, e, listing):
 
 # ---------- audience filter ----------
 
-def scout_filter(title, categories):
-    """For --scouts-only. Returns (keep, note). Cub-oriented titles are always dropped;
-    otherwise the council's own category labels decide."""
+def scout_filter(title, categories, keep):
+    """For --scouts-only. `keep` is a set of lowercase category labels to keep.
+    Returns (keep_it, note). Cub-oriented titles are always dropped; otherwise the
+    council's own category labels decide. An event tagged Cub Scouts survives only if it
+    also carries a kept program label (BSA Scouts, OA, Venturing, Sea Scouts), so a
+    'Cub Scouts + Training' event is dropped even when Training is kept."""
     if CUB_TITLE_RE.search(title):
         return False, "Cub-oriented title"
     cats = {c.lower() for c in categories}
-    if cats & PROGRAM_CATEGORIES:                 # Scouts BSA, OA, Venturing, Sea Scouts
+    if not cats:
+        return True, "no category found"          # keep, but flag it in the log
+    if cats & keep:
+        if "cub scouts" in cats and not (cats & keep & PROGRAM_CATEGORIES):
+            return False, "Cub Scouts category"
         return True, ""
     if "cub scouts" in cats:
         return False, "Cub Scouts category"
-    if cats & GENERAL_CATEGORIES:                 # council / district events, training
-        return True, ""
-    if "exploring" in cats:
-        return False, "Exploring category only"
-    return True, "no category found"              # keep, but flag it in the log
+    return False, "category not kept: " + ", ".join(sorted(cats))
 
 
 # ---------- ICS output ----------
@@ -435,8 +441,17 @@ def main():
     ap.add_argument("--all", action="store_true", help="include events that already ended")
     ap.add_argument("--scouts-only", action="store_true",
                     help="leave out Cub Scout, Webelos/AOL and family events")
+    ap.add_argument("--keep-categories", default=DEFAULT_KEEP,
+                    help='with --scouts-only: comma-separated council categories to keep, e.g. '
+                         '"BSA Scouts,Training" (default: %(default)s)')
     ap.add_argument("--site-dir", help="also write events.json + changes.json here (e.g. docs)")
     args = ap.parse_args()
+    keep_cats = {c.strip().lower() for c in args.keep_categories.split(",") if c.strip()}
+    unknown = keep_cats - CATEGORY_LABELS
+    if unknown:
+        ap.error(f"unknown category in --keep-categories: {', '.join(sorted(unknown))}")
+    if args.keep_categories != DEFAULT_KEEP:
+        args.scouts_only = True                   # choosing categories implies filtering
 
     listing = collect_listing()
     print(f"Found {len(listing)} events. Fetching detail pages...")
@@ -459,7 +474,7 @@ def main():
             continue
         title = d["title"] or base["title"]
         if args.scouts_only:
-            keep, why = scout_filter(title, d["categories"])
+            keep, why = scout_filter(title, d["categories"], keep_cats)
             if not keep:
                 print(f"  - FILTERED OUT {title} ({why})")
                 continue
