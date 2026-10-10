@@ -208,6 +208,20 @@ LOCATION:Camp Balboa\, San Diego-Imperial Council\, Scouting America\, 120
  7 Upas St\, San Diego\, CA 92103\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:coin-collecting-merit-badge-day@sdicscouting.org
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Coin Collecting Merit Badge Day
+DESCRIPTION:Coin Collecting Merit Badge Day\nOn October 18\nth\nfrom 12:00
+  PM to 2:30 PM\, at the El Cajon Elks Lodge\, there is going to be a Coin
+  Collecting Merit Badge Workshop. Free of charge\, Scouts will fully comp
+ lete the merit badge at the event. To register\, please reach out to Greg
+  Schenewerk at GCSCoincollector@gmail.com.\n\nhttps://www.sdicscouting.or
+ g/events/coin-collecting-merit-badge-day
+URL:https://www.sdicscouting.org/events/coin-collecting-merit-badge-day
+END:VEVENT
+BEGIN:VEVENT
 UID:eagleprojectcounselor-training@sdicscouting.org
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20261019
@@ -222,6 +236,21 @@ DESCRIPTION:Eagle Project Counselor Training\nAdvancement Training\nWould
  www.sdicscouting.org/events/eagleprojectcounselor-training
 URL:https://www.sdicscouting.org/events/eagleprojectcounselor-training
 LOCATION:Camp Balboa\, Atherton Hall – 1207 Upas Street\, SD CA 92103
+END:VEVENT
+BEGIN:VEVENT
+UID:movie-in-the-park@sdicscouting.org
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Movie in the Park
+DESCRIPTION:Movie in the Park\nJoin Lake Wohlford for a free Movie in the 
+ Park on October 23! Enjoy fun activities starting at 5 PM\, snacks and dr
+ inks available for purchase\, and a movie beginning at 6:45 PM. Bring you
+ r own chairs and blankets for a fun evening outdoors with family and frie
+ nds. Contact\n760-839-4346\nwith any questions.\n‍\n\nhttps://www.sdics
+ couting.org/events/movie-in-the-park
+URL:https://www.sdicscouting.org/events/movie-in-the-park
+LOCATION:25453 Lake Wohlford Road\, Escondido\, CA 92025
 END:VEVENT
 BEGIN:VEVENT
 UID:personal-management-merit-badge-workshop-20261028@sdicscouting.org
@@ -410,6 +439,27 @@ DESCRIPTION:National Day of Service\nSave the Date\nMore information comin
  g soon about how SDIC will be supporting this national initiative.\n\nht
  tps://www.sdicscouting.org/events/national-day-of-service
 URL:https://www.sdicscouting.org/events/national-day-of-service
+END:VEVENT
+BEGIN:VEVENT
+UID:coastal-sage-scouting-for-clean-waterways@sdicscouting.org
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Scouting for Clean Waterways
+DESCRIPTION:Scouting for Clean Waterways\nCub Scouts - The Champions for N
+ ature elective Adventure\, across all of the ranks\, is conservation-them
+ ed\, and there’s a Scouting for Clean Water-ways option for each one. E
+ arn a certificate!\nScouts BSA/Venturing/Sea Scouts - Scouting for Clean 
+ Waterways service projects count toward rank advancement and also counts 
+ toward the Conservation Good Turn Award. Earn a certificate!\nSign up by 
+ November 25! Send email to: doris.mccarthy@sdsu.edu. Include district\, u
+ nit number\, contact name\, and number of participants. Youth must be acc
+ ompanied by an adult. Log your hours on Scoutbook Plus!\n‍\nTogether\, 
+ let’s make a positive impact on our environment and protect our preciou
+ s water resources for future generations\n\nhttps://www.sdicscouting.org/
+ events/coastal-sage-scouting-for-clean-waterways
+URL:https://www.sdicscouting.org/events/coastal-sage-scouting-for-clean-wa
+ terways
 END:VEVENT
 BEGIN:VEVENT
 UID:msr-work-party-dec@sdicscouting.org
@@ -1534,23 +1584,6 @@ URL:https://www.sdicscouting.org/events/paddle-craft-and-safe-water-rescue
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
-UID:community-adventure-day-6@sdicscouting.org
-DTSTAMP:20270925T000000Z
-DTSTART;VALUE=DATE:20270925
-DTEND;VALUE=DATE:20270926
-SUMMARY:Community Adventure Day
-DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
- se style for you and your family to enjoy on your schedule. You may arriv
- e anytime before noon and leave when you wish.\nAll activities designed f
- or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
- ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
-  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
- 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
- .sdicscouting.org/events/community-adventure-day-6
-URL:https://www.sdicscouting.org/events/community-adventure-day-6
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
-END:VEVENT
-BEGIN:VEVENT
 UID:haltt-session-3-sept-2027@sdicscouting.org
 DTSTAMP:20270925T000000Z
 DTSTART;VALUE=DATE:20270925
@@ -1566,6 +1599,23 @@ DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
 URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
 LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
  A
+END:VEVENT
+BEGIN:VEVENT
+UID:community-adventure-day-6@sdicscouting.org
+DTSTAMP:20270925T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-6
+URL:https://www.sdicscouting.org/events/community-adventure-day-6
+LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-10@sdicscouting.org
