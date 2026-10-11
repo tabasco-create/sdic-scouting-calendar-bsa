@@ -14,10 +14,20 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4
-      - run: python sdic_events_to_ics.py -o docs/sdic_events.ics --site-dir docs --keep-categories "BSA Scouts,Training,Council / District"
+      - run: python sdic_events_to_ics.py -o docs/sdic_events.ics --site-dir docs --slack-payload slack_payload.json --keep-categories "BSA Scouts,Training,Council / District"
       - name: Commit if changed
         run: |
           git config user.name "calendar-bot"
           git config user.email "calendar-bot@users.noreply.github.com"
           git add docs
           git diff --staged --quiet || (git commit -m "Update events" && git push)
+      - name: Post to Slack
+        if: hashFiles('slack_payload.json') != ''
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "SLACK_WEBHOOK_URL is not set, so no Slack message was sent."
+            exit 0
+          fi
+          curl -fsS -X POST -H 'Content-type: application/json' --data @slack_payload.json "$SLACK_WEBHOOK_URL"

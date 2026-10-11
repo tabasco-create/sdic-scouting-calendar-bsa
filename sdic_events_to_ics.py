@@ -7,6 +7,8 @@ Run:     python sdic_events_to_ics.py                (upcoming events only)
          python sdic_events_to_ics.py --all          (include past events)
          python sdic_events_to_ics.py -o scouting.ics
          python sdic_events_to_ics.py -o docs/sdic_events.ics --site-dir docs
+         python sdic_events_to_ics.py ... --slack-payload slack_payload.json
+            (when events were added/changed/removed, also writes a Slack message to that file)
          python sdic_events_to_ics.py ... --scouts-only
             (Scouts BSA-focused calendar: leaves out Cub Scout / Webelos / family events)
          python sdic_events_to_ics.py ... --keep-categories "BSA Scouts,Training"
@@ -408,7 +410,63 @@ def diff_events(old, new, today):
     return added, removed, changed
 
 
-def update_site_data(events, site_dir, today, failed_slugs):
+SLACK_LIST_LIMIT = 15       # events listed per section
+SLACK_FLOOD_LIMIT = 40      # more additions than this in one run = probably a site/filter change
+
+
+def slack_escape(text):
+    return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def slack_when(e):
+    a, b = dt.date.fromisoformat(e["start"]), dt.date.fromisoformat(e["end"])
+    d = f"{a:%a %b} {a.day}" if a == b else (f"{a:%b} {a.day}\u2013{b.day}" if (a.year, a.month) == (b.year, b.month)
+                                           else f"{a:%b} {a.day} \u2013 {b:%b} {b.day}")
+    return d + (f", {e['time']}" if e.get("time") else "")
+
+
+def slack_line(e):
+    link = f"<{e['url']}|{slack_escape(e['title'])}>" if str(e.get("url", "")).startswith("https://") \
+        else slack_escape(e["title"])
+    return f"\u2022 {link} \u2014 {slack_when(e)}"
+
+
+def build_slack_message(added, removed, changed, page_url):
+    parts = []
+    if len(added) > SLACK_FLOOD_LIMIT:
+        parts.append(f"*{len(added)} events were added at once.* That usually means the council "
+                     f"reorganized its site or the filter changed, so they aren't listed here.")
+    elif added:
+        parts.append(f"*New events ({len(added)})*")
+        parts += [slack_line(e) for e in added[:SLACK_LIST_LIMIT]]
+        if len(added) > SLACK_LIST_LIMIT:
+            parts.append(f"_...and {len(added) - SLACK_LIST_LIMIT} more_")
+    if changed and len(changed) <= SLACK_LIST_LIMIT:
+        parts.append(f"\n*Changed ({len(changed)})*")
+        for c in changed:
+            what = "; ".join(f"{ch['field']}: {ch['from'] or 'none'} \u2192 {ch['to'] or 'none'}" for ch in c["changes"])
+            parts.append(slack_line(c["event"]) + f"\n    _{slack_escape(what)}_")
+    elif changed:
+        parts.append(f"\n*{len(changed)} events changed.*")
+    if removed and len(removed) <= SLACK_LIST_LIMIT:
+        parts.append(f"\n*Removed ({len(removed)})*")
+        parts += [slack_line(e) for e in removed]
+    elif removed:
+        parts.append(f"\n*{len(removed)} events removed.*")
+    if page_url:
+        parts.append(f"\n<{page_url}|See everything on the calendar page>")
+    return {"text": "\n".join(parts)}
+
+
+def page_url_from_env():
+    repo = os.environ.get("GITHUB_REPOSITORY", "")      # "owner/repo" inside GitHub Actions
+    if "/" not in repo:
+        return ""
+    owner, name = repo.split("/", 1)
+    return f"https://{owner.lower()}.github.io/{name}/"
+
+
+def update_site_data(events, site_dir, today, failed_slugs, slack_path=None):
     os.makedirs(site_dir, exist_ok=True)
     ev_path, ch_path = os.path.join(site_dir, "events.json"), os.path.join(site_dir, "changes.json")
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -434,6 +492,11 @@ def update_site_data(events, site_dir, today, failed_slugs):
             updated_at = now
             print(f"Changes since last update: {len(added)} added, {len(removed)} removed, "
                   f"{len(changed)} changed")
+            if slack_path:
+                with open(slack_path, "w", encoding="utf-8") as f:
+                    json.dump(build_slack_message(added, removed, changed, page_url_from_env()),
+                              f, ensure_ascii=False)
+                print(f"Wrote Slack message to {slack_path}")
         else:
             print("No changes since last update.")
     else:
@@ -461,6 +524,8 @@ def main():
                     help='with --scouts-only: comma-separated council categories to keep, e.g. '
                          '"BSA Scouts,Training" (default: %(default)s)')
     ap.add_argument("--site-dir", help="also write events.json + changes.json here (e.g. docs)")
+    ap.add_argument("--slack-payload", help="with --site-dir: write a Slack message here when "
+                                            "events were added, changed or removed (not written on the first run)")
     args = ap.parse_args()
     keep_cats = {c.strip().lower() for c in args.keep_categories.split(",") if c.strip()}
     unknown = keep_cats - CATEGORY_LABELS
@@ -546,7 +611,7 @@ def main():
         f.write(build_ics(final))
     print(f"\nWrote {len(final)} events to {args.out}")
     if args.site_dir:
-        update_site_data(final, args.site_dir, today, failed)
+        update_site_data(final, args.site_dir, today, failed, args.slack_payload)
     else:
         print("Import: Google Calendar > Settings > Import & export > Import")
 
