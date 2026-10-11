@@ -65,25 +65,6 @@ URL:https://www.sdicscouting.org/events/2026-october-unit-backpacking
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
-UID:basic-chainsaw-training-oct-2026@sdicscouting.org
-DTSTAMP:20261010T000000Z
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-SUMMARY:Basic Chainsaw Training
-DESCRIPTION:Basic Chainsaw Training\nScouting America properties rely on c
- hain saws to help clear trails\, remove deadfalls\, clear timber\, and st
- ockpile wood for campfires and heating buildings. To allow for this use\,
-  specific guidelines for safety have been adapted for use at all Scouting
-  America activities.\nBasic Chainsaw training is a 12hr course\, it will 
- cover 3-4hr of classroom saw safety operations\, and field cutting.\nPart
- icipants will need to:\nAttend both class days to get the certification\n
- Be at least 21\nBe registered in Scouting America\nBring a current A/B ph
- ysical\nMeet at Silva Lodge @ 8 AM.\n\nhttps://www.sdicscouting.org/event
- s/basic-chainsaw-training-oct-2026
-URL:https://www.sdicscouting.org/events/basic-chainsaw-training-oct-2026
-LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92070
-END:VEVENT
-BEGIN:VEVENT
 UID:gathering-of-the-eagles@sdicscouting.org
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261014
@@ -1584,23 +1565,6 @@ URL:https://www.sdicscouting.org/events/paddle-craft-and-safe-water-rescue
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
 END:VEVENT
 BEGIN:VEVENT
-UID:haltt-session-3-sept-2027@sdicscouting.org
-DTSTAMP:20270925T000000Z
-DTSTART;VALUE=DATE:20270925
-DTEND;VALUE=DATE:20270927
-SUMMARY:HALTT Session III
-DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
- or backpacking trips.\nThis 40-hour course prepares unit leaders for basi
- c backpacking and wilderness camping trips. Topics include: leadership\, 
- trek planning\, equipment\, food\, health and safety\, map and compass\, 
- awards\, and conservation. Leaders completing sessions I\, II\, and III r
- eceive a patch and numbered card.\n\nhttps://www.sdicscouting.org/events/
- haltt-session-3-sept-2027
-URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
-LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
- A
-END:VEVENT
-BEGIN:VEVENT
 UID:community-adventure-day-6@sdicscouting.org
 DTSTAMP:20270925T000000Z
 DTSTART;VALUE=DATE:20270925
@@ -1616,6 +1580,23 @@ DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
  .sdicscouting.org/events/community-adventure-day-6
 URL:https://www.sdicscouting.org/events/community-adventure-day-6
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92076
+END:VEVENT
+BEGIN:VEVENT
+UID:haltt-session-3-sept-2027@sdicscouting.org
+DTSTAMP:20270925T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270927
+SUMMARY:HALTT Session III
+DESCRIPTION:HALTT Session III\nThis 40-hour course prepares unit leaders f
+ or backpacking trips.\nThis 40-hour course prepares unit leaders for basi
+ c backpacking and wilderness camping trips. Topics include: leadership\, 
+ trek planning\, equipment\, food\, health and safety\, map and compass\, 
+ awards\, and conservation. Leaders completing sessions I\, II\, and III r
+ eceive a patch and numbered card.\n\nhttps://www.sdicscouting.org/events/
+ haltt-session-3-sept-2027
+URL:https://www.sdicscouting.org/events/haltt-session-3-sept-2027
+LOCATION:Mataguay Scout Ranch\, Mataguay Rd\, Santa Ysabel\, CA 92070\, US
+ A
 END:VEVENT
 BEGIN:VEVENT
 UID:cope-weekend-2027-10@sdicscouting.org
