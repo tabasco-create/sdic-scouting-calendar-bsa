@@ -1,6 +1,31 @@
 {
  "history": [
   {
+   "at": "2026-10-11T21:31:12Z",
+   "added": [],
+   "removed": [],
+   "changed": [
+    {
+     "event": {
+      "uid": "gathering-of-the-eagles",
+      "title": "Gathering of Eagles",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "time": null,
+      "location": "Admiral Baker Golf Course Clubhouse, 2400 Admiral Baker Road, San Diego, CA 92120",
+      "url": "https://www.sdicscouting.org/events/gathering-of-the-eagles"
+     },
+     "changes": [
+      {
+       "field": "title",
+       "from": "Gathering of Eagles TEST",
+       "to": "Gathering of Eagles"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "at": "2026-10-10T13:30:17Z",
    "added": [
     {
