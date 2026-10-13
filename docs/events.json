@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-12T13:45:18Z",
- "updated_at": "2026-10-11T21:31:12Z",
+ "checked_at": "2026-10-13T13:39:47Z",
+ "updated_at": "2026-10-13T13:39:47Z",
  "tracking_since": "2026-10-08T01:50:57Z",
  "events": [
   {
@@ -77,7 +77,7 @@
   },
   {
    "uid": "personal-management-merit-badge-workshop-20261028",
-   "title": "Personal Management Merit Badge Workshop (1/4)",
+   "title": "Winter Personal Management Merit Badge Workshop (1/4)",
    "start": "2026-10-28",
    "end": "2026-10-28",
    "time": "4:00 PM – 7:30 PM",
@@ -194,7 +194,7 @@
   },
   {
    "uid": "personal-management-merit-badge-workshop-20261209",
-   "title": "Personal Management Merit Badge Workshop (2/4)",
+   "title": "Winter Personal Management Merit Badge Workshop (2/4)",
    "start": "2026-12-09",
    "end": "2026-12-09",
    "time": "4:00 PM – 7:30 PM",
@@ -283,6 +283,15 @@
    "url": "https://www.sdicscouting.org/events/search---rescue-merit-badge-weekend"
   },
   {
+   "uid": "spring-personal-management-merit-badge-workshop-20270201",
+   "title": "Spring Personal Management Merit Badge Workshop (1/4)",
+   "start": "2027-02-01",
+   "end": "2027-02-01",
+   "time": "4:00 PM – 7:30 PM",
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
+  },
+  {
    "uid": "haltt-session-1-feb-2027",
    "title": "HALTT Session I",
    "start": "2027-02-03",
@@ -320,7 +329,7 @@
   },
   {
    "uid": "personal-management-merit-badge-workshop-20270209",
-   "title": "Personal Management Merit Badge Workshop (3/4)",
+   "title": "Winter Personal Management Merit Badge Workshop (3/4)",
    "start": "2027-02-09",
    "end": "2027-02-09",
    "time": "3:00 PM – 6:00 PM",
@@ -329,7 +338,7 @@
   },
   {
    "uid": "personal-management-merit-badge-workshop-20270210",
-   "title": "Personal Management Merit Badge Workshop (4/4)",
+   "title": "Winter Personal Management Merit Badge Workshop (4/4)",
    "start": "2027-02-10",
    "end": "2027-02-10",
    "time": "3:00 PM – 6:00 PM",
@@ -434,6 +443,15 @@
    "time": null,
    "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92078",
    "url": "https://www.sdicscouting.org/events/2027-march-unit-backpacking"
+  },
+  {
+   "uid": "spring-personal-management-merit-badge-workshop-20270315",
+   "title": "Spring Personal Management Merit Badge Workshop (2/4)",
+   "start": "2027-03-15",
+   "end": "2027-03-15",
+   "time": "4:00 PM – 7:30 PM",
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
   },
   {
    "uid": "eagle-camp-week-1",
@@ -551,6 +569,24 @@
    "time": null,
    "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
    "url": "https://www.sdicscouting.org/events/trades-merit-badges-day"
+  },
+  {
+   "uid": "spring-personal-management-merit-badge-workshop-20270510",
+   "title": "Spring Personal Management Merit Badge Workshop (3/4)",
+   "start": "2027-05-10",
+   "end": "2027-05-10",
+   "time": "3:00 PM – 6:00 PM",
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
+  },
+  {
+   "uid": "spring-personal-management-merit-badge-workshop-20270511",
+   "title": "Spring Personal Management Merit Badge Workshop (4/4)",
+   "start": "2027-05-11",
+   "end": "2027-05-11",
+   "time": "3:00 PM – 6:00 PM",
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/spring-personal-management-merit-badge-workshop"
   },
   {
    "uid": "cope-weekend-2027-5",
