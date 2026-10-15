@@ -1,17 +1,8 @@
 {
- "checked_at": "2026-10-14T13:48:28Z",
+ "checked_at": "2026-10-15T13:51:59Z",
  "updated_at": "2026-10-13T13:39:47Z",
  "tracking_since": "2026-10-08T01:50:57Z",
  "events": [
-  {
-   "uid": "gathering-of-the-eagles",
-   "title": "Gathering of Eagles",
-   "start": "2026-10-14",
-   "end": "2026-10-14",
-   "time": null,
-   "location": "Admiral Baker Golf Course Clubhouse, 2400 Admiral Baker Road, San Diego, CA 92120",
-   "url": "https://www.sdicscouting.org/events/gathering-of-the-eagles"
-  },
   {
    "uid": "jamboree-on-the-air",
    "title": "Jamboree-on-the-Air",

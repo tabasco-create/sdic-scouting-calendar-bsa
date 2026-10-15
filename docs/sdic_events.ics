@@ -5,31 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:SDIC Scouting Events
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-UID:gathering-of-the-eagles@sdicscouting.org
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:Gathering of Eagles
-DESCRIPTION:Gathering of Eagles\nAn Annual Gathering of Eagle Scouts from 
- throughout the San Diego-Imperial Council\, their Spouses\, Outstanding E
- agle Scout Honorees\, Council Staff and Special Guests.\nAll Council supp
- orters of Scouting are welcome to attend!\nWednesday\, October 14\, 2026\
- n‍\nAdmiral Baker Golf Course Clubhouse – North Patio\nDining Room\n2
- 400 Admiral Baker Road\nSan Diego\, CA 92120\nSocial Time:  6:00 – 7:0
- 0 PM\nProgram:  7:00 – 9:00 PM\nPrice:\n$85 per Individual\nTHE EVENIN
- G’S PROGRAM\n6:00 PM - Social Gathering: No Host Bar\n7:00 PM - Dinner\
- , Animated Discussion followed by our evening program:\n- President’s M
- essage:\nMr. Tim Malaney\n- Keynote Address:\nMr. Mark Claussen\nNaval Of
- ficer\, Engineer\, Scouting Advocate\, Council Board Member\n- Eagle Scou
- t AlumniAssociation Life Membership Awards\n- Presentation of  Silver W
- reath Awards\n- Presentation of NESA OutstandingEagle Scout Awards\n- Cou
- ncil Message: Mr. Sean Roy – SDIC Scout Executive\n\nhttps://www.sdicsc
- outing.org/events/gathering-of-the-eagles
-URL:https://www.sdicscouting.org/events/gathering-of-the-eagles
-LOCATION:Admiral Baker Golf Course Clubhouse\, 2400 Admiral Baker Road\, S
- an Diego\, CA 92120
-END:VEVENT
-BEGIN:VEVENT
 UID:jamboree-on-the-air@sdicscouting.org
 DTSTAMP:20261016T000000Z
 DTSTART;VALUE=DATE:20261016
