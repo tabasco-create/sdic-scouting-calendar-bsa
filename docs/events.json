@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-16T13:50:03Z",
- "updated_at": "2026-10-16T13:50:03Z",
+ "checked_at": "2026-10-17T13:38:52Z",
+ "updated_at": "2026-10-17T13:38:52Z",
  "tracking_since": "2026-10-08T01:50:57Z",
  "events": [
   {
@@ -110,6 +110,15 @@
    "time": null,
    "location": "",
    "url": "https://www.sdicscouting.org/events/radio-merit-badge-on-uss-midway-november"
+  },
+  {
+   "uid": "philmont-trek",
+   "title": "Philmont Trek",
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/philmont-trek"
   },
   {
    "uid": "cope-weekend-2026-8",
