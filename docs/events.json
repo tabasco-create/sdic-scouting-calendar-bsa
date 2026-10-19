@@ -1,35 +1,8 @@
 {
- "checked_at": "2026-10-18T13:38:51Z",
+ "checked_at": "2026-10-19T13:56:16Z",
  "updated_at": "2026-10-17T13:38:52Z",
  "tracking_since": "2026-10-08T01:50:57Z",
  "events": [
-  {
-   "uid": "coin-collecting-merit-badge-day",
-   "title": "Coin Collecting Merit Badge Day",
-   "start": "2026-10-18",
-   "end": "2026-10-18",
-   "time": null,
-   "location": "",
-   "url": "https://www.sdicscouting.org/events/coin-collecting-merit-badge-day"
-  },
-  {
-   "uid": "honor-guard-training-october",
-   "title": "Honor Guard Training",
-   "start": "2026-10-18",
-   "end": "2026-10-18",
-   "time": null,
-   "location": "Camp Balboa, San Diego-Imperial Council, Scouting America, 1207 Upas St, San Diego, CA 92103, USA",
-   "url": "https://www.sdicscouting.org/events/honor-guard-training-october"
-  },
-  {
-   "uid": "life-to-eagle-workshop-5",
-   "title": "Life to Eagle Workshop",
-   "start": "2026-10-18",
-   "end": "2026-10-18",
-   "time": null,
-   "location": "",
-   "url": "https://www.sdicscouting.org/events/life-to-eagle-workshop-5"
-  },
   {
    "uid": "eagleprojectcounselor-training",
    "title": "Eagle Project Counselor Training",
