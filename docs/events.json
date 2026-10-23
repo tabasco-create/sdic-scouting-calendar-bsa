@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-22T13:53:27Z",
- "updated_at": "2026-10-22T13:53:27Z",
+ "checked_at": "2026-10-23T13:50:53Z",
+ "updated_at": "2026-10-23T13:50:53Z",
  "tracking_since": "2026-10-08T01:50:57Z",
  "events": [
   {
@@ -29,6 +29,15 @@
    "time": null,
    "location": "",
    "url": "https://www.sdicscouting.org/events/haunt-the-valley-scout-night"
+  },
+  {
+   "uid": "movo-training",
+   "title": "MOVO Training",
+   "start": "2026-11-05",
+   "end": "2026-11-05",
+   "time": null,
+   "location": "Atherton Hall, 1207 Upas St San Diego, CA 92103",
+   "url": "https://www.sdicscouting.org/events/movo-training"
   },
   {
    "uid": "haltt-session-4-nov-water-50613",

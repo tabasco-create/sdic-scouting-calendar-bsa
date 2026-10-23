@@ -60,6 +60,25 @@ DESCRIPTION:Haunt the Valley Scout Night\nJoin the San Diego Council for S
 URL:https://www.sdicscouting.org/events/haunt-the-valley-scout-night
 END:VEVENT
 BEGIN:VEVENT
+UID:movo-training@sdicscouting.org
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:MOVO Training
+DESCRIPTION:MOVO Training\nMOVO Training\nJoin us for MOVO Training to lea
+ rn how Scouting America’s virtual assistant helps families discover Sco
+ uting and connect with local units. Learn how your unit’s BeAScout pin 
+ and up-to-date information can help more families find their Scouting hom
+ e.\nLocation:\nAtherton Hall\, 1207 Upas Street\, San Diego\, CA 92103\nV
+ irtual Option:\nJoin via Zoom: https://us02web.zoom.us/j/82000370366?pwd=
+ VbsLG9eHHdxibJUH6oGXc3HuLvhMKd.1 Meeting ID: 820 0037 0366 Passcode: 0530
+ 05\nOpen to unit leaders\, committee members\, and anyone interested in h
+ elping more families connect with Scouting.\n\nhttps://www.sdicscouting.o
+ rg/events/movo-training
+URL:https://www.sdicscouting.org/events/movo-training
+LOCATION:Atherton Hall\, 1207 Upas St San Diego\, CA 92103
+END:VEVENT
+BEGIN:VEVENT
 UID:haltt-session-4-nov-water-50613@sdicscouting.org
 DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261107
@@ -1622,24 +1641,6 @@ URL:https://www.sdicscouting.org/events/2027-oct-unit-backpacking
 LOCATION:Mataguay Scout Ranch\, 27955 CA-79\, Santa Ysabel\, CA 92081
 END:VEVENT
 BEGIN:VEVENT
-UID:community-adventure-day-7@sdicscouting.org
-DTSTAMP:20271016T000000Z
-DTSTART;VALUE=DATE:20271016
-DTEND;VALUE=DATE:20271017
-SUMMARY:Community Adventure Day
-DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
- se style for you and your family to enjoy on your schedule. You may arriv
- e anytime before noon and leave when you wish.\nAll activities designed f
- or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
- ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
-  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
- 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
- .sdicscouting.org/events/community-adventure-day-7
-URL:https://www.sdicscouting.org/events/community-adventure-day-7
-LOCATION:Camp Bashor at Otay Lakes County Park\, 2270 Wueste Rd\, Chula Vi
- sta\, CA 91915
-END:VEVENT
-BEGIN:VEVENT
 UID:first-aid-adult-cpr-and-aed-oct-2027@sdicscouting.org
 DTSTAMP:20271016T000000Z
 DTSTART;VALUE=DATE:20271016
@@ -1661,6 +1662,24 @@ DESCRIPTION:First Aid\, Adult CPR\, and AED\nSave the Date\nTopics include
  https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-oct-2027
 URL:https://www.sdicscouting.org/events/first-aid-adult-cpr-and-aed-oct-20
  27
+END:VEVENT
+BEGIN:VEVENT
+UID:community-adventure-day-7@sdicscouting.org
+DTSTAMP:20271016T000000Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+SUMMARY:Community Adventure Day
+DESCRIPTION:Community Adventure Day\nSave the Date\nThis event is open hou
+ se style for you and your family to enjoy on your schedule. You may arriv
+ e anytime before noon and leave when you wish.\nAll activities designed f
+ or ages 5-17 (and their adults)\nActivities include crafts\, canoeing\, k
+ ayaking\, and a nature activity.\nExperience the great outdoors and enjoy
+  the day at Mataguay Scout Ranch.\nFamilies must pre-register. NO WALK-IN
+ 'S.\nPlease no dogs allowed at the Community Adventure Day\n\nhttps://www
+ .sdicscouting.org/events/community-adventure-day-7
+URL:https://www.sdicscouting.org/events/community-adventure-day-7
+LOCATION:Camp Bashor at Otay Lakes County Park\, 2270 Wueste Rd\, Chula Vi
+ sta\, CA 91915
 END:VEVENT
 BEGIN:VEVENT
 UID:wilderness-and-remote-first-aid-oct-2027@sdicscouting.org
