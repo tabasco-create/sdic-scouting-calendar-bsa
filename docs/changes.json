@@ -1,6 +1,22 @@
 {
  "history": [
   {
+   "at": "2026-10-28T14:07:34Z",
+   "added": [
+    {
+     "uid": "wilderness-and-remote-first-aid-june-2027",
+     "title": "Wilderness and Remote First Aid",
+     "start": "2027-01-05",
+     "end": "2027-01-06",
+     "time": null,
+     "location": "San Diego-Imperial Council, Boy Scouts of America, 1207 Upas St, San Diego, CA 92103, USA",
+     "url": "https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-june-2027"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  {
    "at": "2026-10-27T13:59:32Z",
    "added": [],
    "removed": [
