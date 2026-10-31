@@ -1321,6 +1321,25 @@ LOCATION:San Diego Youth Aquatic Center\, 1750 Fiesta Island Rd\, San Dieg
  o\, CA 92114
 END:VEVENT
 BEGIN:VEVENT
+UID:wilderness-and-remote-first-aid-june-2027@sdicscouting.org
+DTSTAMP:20270605T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270607
+SUMMARY:Wilderness and Remote First Aid
+DESCRIPTION:Wilderness and Remote First Aid\nSave the Date - Required for 
+ all High Adventure Treks\nWilderness First Aid (WFA) is the assessment of
+  and treatment given to an ill or injured person in a remote environment 
+ where definitive care by a physician and/or rapid transport is not readil
+ y available.\nA current basic level certificate in First Aid/CPR/AED cert
+ ification is required to participate in the WRFA Course.\nPrice:\n$100\n\
+ nhttps://www.sdicscouting.org/events/wilderness-and-remote-first-aid-june
+ -2027
+URL:https://www.sdicscouting.org/events/wilderness-and-remote-first-aid-ju
+ ne-2027
+LOCATION:San Diego-Imperial Council\, Boy Scouts of America\, 1207 Upas St
+ \, San Diego\, CA 92103\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:haltt-recert-1-2027@sdicscouting.org
 DTSTAMP:20270612T000000Z
 DTSTART;VALUE=DATE:20270612
