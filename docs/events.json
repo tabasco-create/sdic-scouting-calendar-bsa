@@ -1,17 +1,8 @@
 {
- "checked_at": "2026-11-05T14:26:47Z",
+ "checked_at": "2026-11-06T14:24:33Z",
  "updated_at": "2026-11-03T14:24:07Z",
  "tracking_since": "2026-10-08T01:50:57Z",
  "events": [
-  {
-   "uid": "movo-training",
-   "title": "MOVO Training",
-   "start": "2026-11-05",
-   "end": "2026-11-05",
-   "time": null,
-   "location": "Atherton Hall, 1207 Upas St San Diego, CA 92103",
-   "url": "https://www.sdicscouting.org/events/movo-training"
-  },
   {
    "uid": "haltt-session-4-nov-water-50613",
    "title": "HALTT Session IV: Water Trek",
