@@ -1,6 +1,22 @@
 {
  "history": [
   {
+   "at": "2026-11-09T22:59:32Z",
+   "added": [],
+   "removed": [
+    {
+     "uid": "national-day-of-service",
+     "title": "National Day of Service",
+     "start": "2026-11-14",
+     "end": "2026-11-14",
+     "time": null,
+     "location": "",
+     "url": "https://www.sdicscouting.org/events/national-day-of-service"
+    }
+   ],
+   "changed": []
+  },
+  {
    "at": "2026-11-03T14:24:07Z",
    "added": [],
    "removed": [
