@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-09T22:59:32Z",
- "updated_at": "2026-11-09T22:59:32Z",
+ "checked_at": "2026-11-10T20:29:28Z",
+ "updated_at": "2026-11-10T20:29:28Z",
  "tracking_since": "2026-10-08T01:50:57Z",
  "events": [
   {
@@ -38,6 +38,15 @@
    "time": null,
    "location": "Mataguay Scout Ranch, 27955 CA-79, Santa Ysabel, CA 92077",
    "url": "https://www.sdicscouting.org/events/2026-november-unit-backpacking"
+  },
+  {
+   "uid": "kayaking-merit-badge-day-2",
+   "title": "Kayaking Merit Badge Day",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "time": null,
+   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
+   "url": "https://www.sdicscouting.org/events/kayaking-merit-badge-day-2"
   },
   {
    "uid": "coastal-sage-scouting-for-clean-waterways",
@@ -83,6 +92,15 @@
    "time": null,
    "location": "Mataguay Scout Ranch, Mataguay Rd, Santa Ysabel, CA 92076",
    "url": "https://www.sdicscouting.org/events/cope-weekend-2026-9"
+  },
+  {
+   "uid": "sd-clippers-scout-night",
+   "title": "SD Clippers Scout Night",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": null,
+   "location": "",
+   "url": "https://www.sdicscouting.org/events/sd-clippers-scout-night"
   },
   {
    "uid": "scout-night-with-gulls-hockey",
