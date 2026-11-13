@@ -492,9 +492,15 @@ def update_site_data(events, site_dir, today, failed_slugs, slack_path=None):
             updated_at = now
             print(f"Changes since last update: {len(added)} added, {len(removed)} removed, "
                   f"{len(changed)} changed")
-            if slack_path:
+            # Roundtable events roll forward a month at a time; they stay on the page and calendar
+            # but don't get their own Slack alerts (a rule change is reported by roundtable.py --check)
+            def not_rt(e):
+                return not e["uid"].startswith("roundtable-")
+            s_added, s_removed = list(filter(not_rt, added)), list(filter(not_rt, removed))
+            s_changed = [c for c in changed if not_rt(c["event"])]
+            if slack_path and (s_added or s_removed or s_changed):
                 with open(slack_path, "w", encoding="utf-8") as f:
-                    json.dump(build_slack_message(added, removed, changed, page_url_from_env()),
+                    json.dump(build_slack_message(s_added, s_removed, s_changed, page_url_from_env()),
                               f, ensure_ascii=False)
                 print(f"Wrote Slack message to {slack_path}")
         else:
@@ -606,6 +612,11 @@ def main():
             raise SystemExit(f"\nERROR: {unlabeled} of {judged} events had no recognizable category label. "
                              f"The council's page layout probably changed, so nothing was written and "
                              f"the previous calendar was left as it was.")
+    try:   # Coastal Sage Roundtable isn't on the events page; it comes from the district page
+        import roundtable
+        final += roundtable.roundtable_events(today, args.all)
+    except Exception as ex:
+        print(f"  ! Roundtable skipped: {ex}")
     final.sort(key=lambda e: e["start"])
     with open(args.out, "w", encoding="utf-8", newline="") as f:
         f.write(build_ics(final))
