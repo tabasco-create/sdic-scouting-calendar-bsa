@@ -1,6 +1,6 @@
 name: Roundtable reminder
-# Posts one Slack reminder in the 3 days before each Coastal Sage Roundtable (about 8am Pacific).
-# docs/roundtable_reminder.json remembers which date was announced, so it only posts once per meeting.
+# Posts one Slack message at the start of each month with that month's Coastal Sage Roundtable date
+# (about 8am Pacific on the 1st). docs/roundtable_reminder.json remembers the last month announced.
 on:
   schedule:
     - cron: "7 16 * * *"

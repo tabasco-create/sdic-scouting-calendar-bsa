@@ -9,7 +9,7 @@ page, works out the rule, and creates one event per month so the calendar stays 
 Used two ways:
   * imported by sdic_events_to_ics.py, which adds the events on every run
   * run daily as a reminder:   python roundtable.py --remind --slack-payload rt_remind.json
-      writes a Slack message once, in the 3 days before each Roundtable
+      writes one Slack message at the start of each month with that month's Roundtable date
   * run weekly as a watcher:   python roundtable.py --check
       compares the rule on the page with the one saved in docs/roundtable.json and reports a change
       (writes a Slack message with --slack-payload, exits 1 if the page can't be understood any more)
@@ -30,7 +30,7 @@ PAGE_URL = "https://www.sdicscouting.org/leading-scouts/districts/coastal-sage"
 HEADERS = {"User-Agent": "Mozilla/5.0 (personal calendar sync script)"}
 STATE_PATH = "docs/roundtable.json"
 REMINDER_PATH = "docs/roundtable_reminder.json"
-REMIND_DAYS = 3        # remind this many days ahead (a Monday morning post for a Thursday meeting)
+REMIND_UNTIL_DAY = 3   # the reminder goes out on the 1st; days 2-3 only catch a skipped run
 MONTHS_AHEAD = 12
 TITLE = "Coastal Sage Roundtable"
 
@@ -194,42 +194,33 @@ def check(state_path, slack_path):
 
 
 def remind(slack_path, today=None, state_path=STATE_PATH, reminder_path=REMINDER_PATH):
-    """Daily reminder. Writes a Slack message if the next Roundtable is within REMIND_DAYS days
-    and hasn't been announced yet. docs/roundtable_reminder.json remembers the last date announced."""
+    """Monthly reminder. On the first days of each month (REMIND_UNTIL_DAY, in case a daily run is
+    skipped) it writes one Slack message with this month's Roundtable date. docs/roundtable_reminder.json
+    remembers the last month announced, so it posts once a month."""
     today = today or dt.date.today()
+    month = f"{today:%Y-%m}"
+    if today.day > REMIND_UNTIL_DAY:
+        print(f"Day {today.day}: the monthly reminder goes out on the 1st; nothing to do.")
+        return
+    if load_state(reminder_path).get("last_reminded_month") == month:
+        print(f"Already reminded for {month}.")
+        return
     rule, _ = current_rule(state_path)
-    nxt, y, m = None, today.year, today.month
-    for _ in range(3):
-        d = nth_weekday(y, m, rule["nth"], rule["weekday"])
-        if d and d >= today:
-            nxt = d
-            break
-        m += 1
-        if m > 12:
-            y, m = y + 1, 1
-    if not nxt:
-        print("No upcoming Roundtable found.")
+    d = nth_weekday(today.year, today.month, rule["nth"], rule["weekday"])
+    if not d or d < today:
+        print(f"No Roundtable left in {month}; nothing to announce.")
         return
-    days = (nxt - today).days
-    done = load_state(reminder_path).get("last_reminded")
-    if days > REMIND_DAYS:
-        print(f"Next Roundtable is {nxt} ({days} days away); no reminder yet.")
-        return
-    if done == nxt.isoformat():
-        print(f"Already reminded about {nxt}.")
-        return
-    when = "today" if days == 0 else "tomorrow" if days == 1 else f"{nxt:%A}"
     t = lambda s_: dt.datetime.strptime(s_, "%H:%M").strftime("%I:%M %p").lstrip("0")
     esc = lambda x: x.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-    msg = (f"*Coastal Sage Roundtable* is {when}, {nxt:%b} {nxt.day}, {t(rule['start'])}\u2013{t(rule['end'])}\n"
+    msg = (f"*Coastal Sage Roundtable this month:* {d:%A, %B} {d.day}, {t(rule['start'])}\u2013{t(rule['end'])}\n"
            f"{esc(rule['location'])}\n<{PAGE_URL}|District page>")
     with open(slack_path, "w", encoding="utf-8") as f:
         json.dump({"text": msg}, f, ensure_ascii=False)
     os.makedirs(os.path.dirname(reminder_path) or ".", exist_ok=True)
     with open(reminder_path, "w", encoding="utf-8", newline="\n") as f:
-        json.dump({"last_reminded": nxt.isoformat()}, f, indent=1)
+        json.dump({"last_reminded_month": month}, f, indent=1)
         f.write("\n")
-    print(f"Reminder written for {nxt}.")
+    print(f"Reminder written for {d}.")
 
 
 if __name__ == "__main__":
