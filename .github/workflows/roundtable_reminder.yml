@@ -28,7 +28,8 @@ jobs:
           fi
           curl -fsS -X POST -H 'Content-type: application/json' --data @rt_remind.json "$SLACK_WEBHOOK_URL"
       - name: Remember the reminder
-        # runs only if the Slack post worked, so a failed post is retried the next day
+        # runs only when a reminder was actually sent (a failed post is retried the next day)
+        if: hashFiles('rt_remind.json') != ''
         run: |
           git config user.name "calendar-bot"
           git config user.email "calendar-bot@users.noreply.github.com"
