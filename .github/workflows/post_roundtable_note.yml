@@ -1,0 +1,21 @@
+name: Post Roundtable announcement to Slack
+# One-time note. Run it once from the Actions tab; it does nothing on its own.
+on:
+  workflow_dispatch:
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post to Slack
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "SLACK_WEBHOOK_URL is not set, so no Slack message was sent."
+            exit 1
+          fi
+          cat > note.json <<'JSON'
+          {"text": "*New on the calendar: Coastal Sage Roundtable*\nThe district Roundtable is now on the troop calendar. It meets the second Thursday of each month, 6:30–8:00 PM, at Northminster Presbyterian Church, 4324 Clairemont Mesa Blvd, San Diego. The next one is Thursday, December 10. It isn't on the council's events page, so it comes from the <https://www.sdicscouting.org/leading-scouts/districts/coastal-sage|Coastal Sage District page> and updates if the district changes it.\nExpect a reminder here at the start of each month. <https://tabasco-create.github.io/sdic-scouting-calendar-bsa/|See the calendar page>"}
+          JSON
+          python3 -c "import json;print(json.load(open('note.json'))['text'])"
+          curl -fsS -X POST -H 'Content-type: application/json' --data @note.json "$SLACK_WEBHOOK_URL"
