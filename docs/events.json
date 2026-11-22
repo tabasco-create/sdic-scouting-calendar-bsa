@@ -1,17 +1,8 @@
 {
- "checked_at": "2026-11-21T20:06:10Z",
+ "checked_at": "2026-11-22T20:21:20Z",
  "updated_at": "2026-11-21T20:06:10Z",
  "tracking_since": "2026-10-08T01:50:57Z",
  "events": [
-  {
-   "uid": "kayaking-merit-badge-day-2",
-   "title": "Kayaking Merit Badge Day",
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "time": null,
-   "location": "San Diego Youth Aquatic Center, 1750 Fiesta Island Rd, San Diego, CA 92109",
-   "url": "https://www.sdicscouting.org/events/kayaking-merit-badge-day-2"
-  },
   {
    "uid": "coastal-sage-scouting-for-clean-waterways",
    "title": "Scouting for Clean Waterways",
